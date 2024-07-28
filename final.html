@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>katalog</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top mb-4 mt-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PRODUCT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Filter</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lokasi</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Jakarta</a></li>
+                <li><a class="dropdown-item" href="#">Bandung</a></li>
+                <li><a class="dropdown-item" href="#">Surabaya</a></li>
+                <li><a class="dropdown-item" href="#">Denpasar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipe Penjual</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Online Mall</a></li>
+                <li><a class="dropdown-item" href="#">Star Plus</a></li>
+                <li><a class="dropdown-item" href="#">Star</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Metode Pembayaran</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">COD (Cash on Delivery)</a></li>
+                <li><a class="dropdown-item" href="#">Bank</a></li>
+                <li><a class="dropdown-item" href="#">E Money</a></li>
+                <li><a class="dropdown-item" href="#">Cicilan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opsi Pengiriman</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Instan</a></li>
+                <li><a class="dropdown-item" href="#">Regular</a></li>
+                <li><a class="dropdown-item" href="#">Hemat</a></li>
+                <li><a class="dropdown-item" href="#">Sameday</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program Promo</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Tanggal Kembar</a></li>
+                <li><a class="dropdown-item" href="#">CashBack EXTRA</a></li>
+                <li><a class="dropdown-item" href="#">100% Original</a></li>
+                <li><a class="dropdown-item" href="#">SUPER PROMO</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <div class="container-fluid mt-5">
+      <!-- main -->
+      <!-- akhir dropdown menu -->
+      <!-- Product Main -->
+      <div class="row">
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title fw-bold" style="font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="#" class="card mb-5" style="text-decoration: none; color: black">
+            <img src="img/dua.jpg" class="card-img-top" alt="satu" />
+            <div class="card-body">
+              <p class="card-title" style="font-weight: bold; font-size: 12px">Nama Prodak dan sebagainya</p>
+              <div class="row fss justify-content-between">
+                <div class="col-md-8 bg-primary text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 10px">Product-baru</span>
+                </div>
+                <div class="col-md-4 bg-danger text-light text-center p-1 mb-md-0 mb-1">
+                  <span style="font-size: 9px">Diskon %</span>
+                </div>
+              </div>
+              <p class="mt-md-3 mt-2" style="font-size: 11px">Rp.100.000 - Rp.120.000</p>
+              <span style="font-size: 12px; opacity: 0.8">Bandung</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- ahir Product Main -->
+
+      <!-- -akhir main -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
